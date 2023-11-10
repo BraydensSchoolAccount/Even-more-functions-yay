@@ -92,3 +92,4 @@ def pizza(*toppings):
         print("\t-",topping)
 
 
+next_exercise("Shirts")
