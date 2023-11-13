@@ -93,3 +93,28 @@ def pizza(*toppings):
 
 
 next_exercise("Shirts")
+
+make_shirt(input("What is your shirt size? >  "), input("What do you want your shirt to say? >  "))
+
+next_exercise("All of these are real, even New York")
+
+describe_city("New York City")
+
+describe_city("Accident")
+
+describe_city("Moron", "Spain")
+
+next_exercise("Random math for 500!")
+
+answer_to_math = math_stuff(int(input("What number do you want to do math stuff with? >  ")))
+print(f"When you divide that by 2 then multiply by 4, you get {answer_to_math}.")
+
+next_exercise("Could you tell I'm a game dev?")
+
+spawn_enemy(input("What is the type of enemy? >  "),int(input("What is the X position of the enemy? (grid index) >  ")), int(input("What is the Y position of the enemy? (grid index) >  ")))
+spawn_enemy(input("What is the type of enemy? >  "),int(input("What is the X position of the enemy? (grid index) >  ")), int(input("What is the Y position of the enemy? (grid index) >  ")), input("What is the weapon they have? >  "), bool(input("Do they drop a medkit? (1=true, 0=false) >  ")))
+
+next_exercise("PIZZA!")
+
+pizza("Pepperoni")
+pizza("Pepperoni", "Ham", "Extra Cheese", "Sausage")
